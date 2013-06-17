@@ -16,19 +16,19 @@ public class ModBlocks {
 	public static void init() {
 		int i = 0;
 		// init ladders
-		ironladder = new BlockSLadders(BlockIds.IRON_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		ironladder = new BlockLadders(BlockIds.IRON_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(ironladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		goldenladder = new BlockSLadders(BlockIds.GOLDEN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		goldenladder = new BlockLadders(BlockIds.GOLDEN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(goldenladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		diamondladder = new BlockSLadders(BlockIds.DIAMOND_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		diamondladder = new BlockLadders(BlockIds.DIAMOND_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(diamondladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		obsidianladder = new BlockSLadders(BlockIds.OBSIDIAN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		obsidianladder = new BlockLadders(BlockIds.OBSIDIAN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(obsidianladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		lapisladder = new BlockSLadders(BlockIds.LAPIS_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		lapisladder = new BlockLadders(BlockIds.LAPIS_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(lapisladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		emeraldladder = new BlockSLadders(BlockIds.EMERALD_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		emeraldladder = new BlockLadders(BlockIds.EMERALD_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(emeraldladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
-		warnladder = new BlockSLadders(BlockIds.WARN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
+		warnladder = new BlockLadders(BlockIds.WARN_LADDER).setUnlocalizedName(Strings.LADDER_TYPE[i]+Strings.LADDER_NAME);
 		GameRegistry.registerBlock(warnladder, Strings.LADDER_TYPE[i++]+Strings.LADDER_NAME);
 		
 		i=0;
