@@ -1,0 +1,19 @@
+[
+{
+  "modid": "simplyladders",
+  "name": "Simply Ladders",
+  "description": "Try to make some new Ladders",
+  "version":  "@VERSION@",
+  "url": "https://github.com/SiDzej/LEDLights/tree/ladders",
+  "updateUrl": "",
+  "authorList": [
+    "_CJ_"
+  ],
+  "Credits": "By _CJ_.",
+  "logoFile": "",
+  "screenshots": [],
+  "parent": "",
+  "dependencies": []
+  
+}
+]
